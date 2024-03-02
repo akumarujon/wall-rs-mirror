@@ -20,7 +20,7 @@ jobs:
 
       - name: Archive all assets
         run: |
-          zip -r assets.zip ./*
+          zip -r assets.zip ./assets/*
 
       - name: Create Release
         id: create_release
